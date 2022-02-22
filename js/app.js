@@ -16,6 +16,15 @@ const homeSlider = new Swiper('.home-slider', {
     },
 })
 
+MicroModal.init({
+    openTrigger: 'data-custom-open',
+    closeTrigger: 'data-custom-close',
+    disableScroll: true,
+    disableFocus: true,
+    awaitOpenAnimation: true,
+    awaitCloseAnimation: true
+})
+
 // Event Listeners
 burger.addEventListener('click', toggleBurger)
 
