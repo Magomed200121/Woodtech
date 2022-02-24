@@ -16,6 +16,7 @@ const homeSlider = new Swiper('.home-slider', {
     },
 })
 
+
 MicroModal.init({
     openTrigger: 'data-custom-open',
     closeTrigger: 'data-custom-close',
